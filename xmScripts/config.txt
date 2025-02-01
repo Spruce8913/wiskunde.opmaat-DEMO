@@ -7,8 +7,8 @@
 #
 # For publishing you'll need a GPG Key
 # To generate a key-pair, fill in your name and email, and run 'xmlatex genKey'
-YOUR_NAME=""
-YOUR_EMAIL=""
+YOUR_NAME="alexander"
+YOUR_EMAIL="alexander.holvoet@kuleuven.be"
 #
 # Current 'xmlatex genKey' logic:
 #      if there is no .xmKeyFile, and it is properly .gitignored, 
@@ -21,7 +21,7 @@ YOUR_EMAIL=""
 # !! DO NOT SAVE THE KEY IN THIS config.txt FILE   !!
 #
 
-#: "${XIMERA_NAME:=cmplx}"
+: "${XIMERA_NAME:=alexdemo}"
 #: "${XIMERA_URL:=http://wiskunde.opmaat.org/}"
 ## : "${XIMERA_URL:=http://localhost:2000/}"
 ## : "${XIMERA_URL:=https://ximera.osu.edu/}"
